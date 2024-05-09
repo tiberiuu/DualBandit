@@ -7,7 +7,7 @@ Each of the bandit scripts require a "tasklist" to run. The format of the taskli
 
 I ran these codes as they are on the Ohio Supercomputer, but a personal computer with linux would work just fine. The command line to start the script would look like
 
-python Softmax-Softmax (Evaluative).py 100000
+$ python Softmax-Softmax (Evaluative).py 100000
 
 The above command would run the script with 100000 firms. You may change the number of firms to fit your needs.
 
