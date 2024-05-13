@@ -11,3 +11,5 @@ $ python Softmax-Softmax (Evaluative).py 100000
 
 The above command would run the script with 100000 firms. You may change the number of firms to fit your needs.
 
+==============
+The file alphabeta-second-deriv.py contains a simple python script to verify the mechanism we propose in the paper. The script takes the raw output for a single-parameter bandit, fits a polynomial function of 3rd degree on the data, and, for each turbulence level, calculates the second derivative with respect to knowledge and exploration cost at the optimal performance value. Our mechanism posits that the second derivative with respect to knowledge will be zero or negative, whereas the second derivative with respect to exploration cost will be positive in that point.
